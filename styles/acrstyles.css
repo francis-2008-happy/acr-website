@@ -94,7 +94,7 @@ nav a:hover {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 350px;
-    height: 400px;
+    height: 450px;
 }
 
 .box2{
@@ -104,21 +104,21 @@ nav a:hover {
     border-color: black;
     border-width: 2px;
     border-style: solid;
-    width: 350px;
-    height: 500px;
+    width: 400px;
+    height: 550px;
 }
 
 .box2_new {
     background-color: white;
     padding: 20px;
-    width: 300px;
+    width: 350px;
     height: 400px;
 }
 .most{
     background-color: black;
     color: white;
     position: absolute;
-    width: 350px;
+    width: 400px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     text-align: center;
@@ -154,8 +154,19 @@ nav a:hover {
     border-radius: 10px;
 }
 
+.list1, .list2, .list3{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
-
+.smaller-text {
+    font-size: 0.5em;
+    opacity: 0.8;
+    font-weight: normal;
+}
 
 footer {
     background-color: black;
