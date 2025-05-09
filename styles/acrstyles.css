@@ -181,8 +181,7 @@ footer {
 
 
 /* Mobile viewport styles */
-
-@media only screen and (max-width: 780px) {
+@media (min-width: 481px) and (max-width: 600px){
     header {
         flex-direction: column;
         gap: 10px;
