@@ -180,8 +180,8 @@ footer {
 }
 
 
-/* Mobile viewport styles */
-@media (min-width: 481px) and (max-width: 600px){
+/* Mobile Styles (up to 768px) */
+@media only screen and (max-width: 768px) {
     header {
         flex-direction: column;
         gap: 10px;
@@ -195,6 +195,7 @@ footer {
     nav {
         flex-wrap: wrap;
         justify-content: center;
+        gap: 10px;
     }
 
     nav a {
@@ -203,24 +204,26 @@ footer {
     }
 
     .login {
+        flex-direction: column;
         gap: 10px;
         margin: 10px 0;
     }
 
     .mode h1 {
         font-size: 2rem;
+        margin: 10px;
     }
 
     .mode p {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin: 10px;
+        padding: 10px;
     }
 
     .boxs {
         flex-direction: column;
         height: auto;
-        gap: 20px;
         padding: 20px;
+        gap: 20px;
     }
 
     .box1,
@@ -229,10 +232,6 @@ footer {
         width: 90%;
         height: auto;
         margin: 0 auto;
-    }
-
-    .box2 {
-        height: auto;
     }
 
     .box2_new {
@@ -247,5 +246,6 @@ footer {
 
     footer {
         position: relative;
+        margin-top: 20px;
     }
 }
