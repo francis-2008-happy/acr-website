@@ -182,60 +182,71 @@ footer {
 
 /* Mobile viewport styles */
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media only screen and (max-width: 780px) {
     header {
         flex-direction: column;
-        align-items: center;
-        gap: 20px;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a {
+        margin: 0 10px;
+        font-size: 1rem;
+    }
+
+    .login {
+        gap: 10px;
+        margin: 10px 0;
+    }
+
+    .mode h1 {
+        font-size: 2rem;
+    }
+
+    .mode p {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .boxs {
         flex-direction: column;
-        align-items: center;
+        height: auto;
         gap: 20px;
+        padding: 20px;
     }
 
-    .box1, .box3 {
+    .box1,
+    .box2,
+    .box3 {
         width: 90%;
         height: auto;
+        margin: 0 auto;
     }
 
     .box2 {
-        width: 90%;
         height: auto;
     }
 
-    .mode p{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-}
-/* Tablet viewport styles */
-@media (min-width: 768px) and (max-width: 1024px) {
-    header {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .boxs {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .box1, .box3 {
-        width: 90%;
+    .box2_new {
+        width: auto;
         height: auto;
     }
 
-    .box2 {
-        width: 90%;
-        height: auto;
+    .most {
+        width: 100%;
+        position: relative;
     }
 
-    .mode p{
-        margin-left: 20px;
-        margin-right: 20px;
+    footer {
+        position: relative;
     }
 }
