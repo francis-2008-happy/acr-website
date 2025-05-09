@@ -195,12 +195,12 @@ footer {
     nav {
         flex-wrap: wrap;
         justify-content: center;
-        gap: 10px;
+        gap: 5px;
     }
 
     nav a {
         margin: 0 10px;
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
 
     .login {
