@@ -204,7 +204,9 @@ footer {
     }
 
     .login {
-        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         gap: 10px;
         margin: 10px 0;
     }
